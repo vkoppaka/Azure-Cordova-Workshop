@@ -1,9 +1,6 @@
 Azure Cordova Workshop
 ======================
-----------
 
-Workshop 1
-----------
 **Installations**
 To follow along in this workshop you will need the following tools and software to be installed:
 
@@ -18,6 +15,20 @@ To follow along in this workshop you will need the following tools and software 
 
  7. Visual Studio Code: [download here](https://code.visualstudio.com/) (any editor or full visual studio with cordova tools installed will also work fine)
  8. Microsoft Azure Account: [Sign up here](https://azure.microsoft.com/en-us/)
+
+A little Ionic refresher
+------------------------
+To know what version of Ionic you installed, open up Node.js command prompt and type in:
+
+    ionic -v
+You should see something like:
+
+ To know what versions of all Ionic dependencies you have installed:
  
- 
+    ionic info
+You should see something like:
+
+ Workshop 1
+----------
+
 
