@@ -22,12 +22,12 @@ To know what version of Ionic you installed, open up Node.js command prompt and 
 
     ionic -v
 You should see something like:
-
+![Ionic version](https://github.com/vkoppaka/Azure-Cordova-Workshop/blob/master/assets/ionicversion.png)
  To know what versions of all Ionic dependencies you have installed:
  
     ionic info
 You should see something like:
-
+![Ionic Info](https://github.com/vkoppaka/Azure-Cordova-Workshop/blob/master/assets/ionicinfo.png)
  Workshop 1
 ----------
 
