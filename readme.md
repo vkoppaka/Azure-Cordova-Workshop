@@ -50,7 +50,7 @@ All Cordova Applications are HTML 5 applications which can just be run via the b
 ![Ionic Serve](https://github.com/vkoppaka/Azure-Cordova-Workshop/blob/master/assets/ionicserve.png)
 
 Ionic is now going to ask you how to start the serve command and you would be picking locahost (option 4)
-![enter image description here](https://github.com/vkoppaka/Azure-Cordova-Workshop/blob/master/assets/ionicserved.png)
+![Website](https://github.com/vkoppaka/Azure-Cordova-Workshop/blob/master/assets/IonicServed.png)
 You should now see your Cordova Mobile Application in your web browser
 ![Ionic Starter App](https://github.com/vkoppaka/Azure-Cordova-Workshop/blob/master/assets/ionicstarterapp.png)
 Now, let us try to run the application on a Mobile Emulator. To do that, we should add Android specific platform code first using the following command -
