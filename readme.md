@@ -29,3 +29,4 @@ You should see something like:
 You should see something like:
 ![Ionic Info](https://github.com/vkoppaka/Azure-Cordova-Workshop/blob/master/assets/ionicinfo.png)
  
+ Here is a link to [Module 1](https://github.com/vkoppaka/Azure-Cordova-Workshop/tree/master/module1)

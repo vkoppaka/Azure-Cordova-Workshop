@@ -1,4 +1,4 @@
-Workshop 1
+Module 1
 ----------
 In the first workshop we will create a simple cordova application using the Ionic framework.
 To get started, launch the Node.js command prompt and change the directory to your current working directory. 
