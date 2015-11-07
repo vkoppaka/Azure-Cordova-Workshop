@@ -1,14 +1,28 @@
-// Ionic Starter App
+(function(){
+var app = angular.module('movieapp', ['ionic', 'angularMoment'])
 
-// angular.module is a global place for creating, registering and retrieving Angular modules
-// 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
-// the 2nd parameter is an array of 'requires'
-angular.module('starter', ['ionic'])
+app.controller('moviectrl', function($scope, $http){
+  $scope.movies = [];
+  
+  $http.get('http://localhost:8100/tables/movieItem').success(function(response){
+     for (var index = 0; index < response.length; index++) {
+          var movieItem = response[index];
+          var movie =     {
+                            id: movieItem.id, 
+                            title: movieItem.title,
+                            imageUrl: movieItem.imageUrl,
+                            releaseDate: movieItem.releaseDate
+                          };
+                          
+        $scope.movies.push(movie);  
+        }
+    
+  });
+  
+});
 
-.run(function($ionicPlatform) {
+app.run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
-    // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
-    // for form inputs)
     if(window.cordova && window.cordova.plugins.Keyboard) {
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
     }
@@ -17,3 +31,4 @@ angular.module('starter', ['ionic'])
     }
   });
 })
+})();
